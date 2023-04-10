@@ -16,7 +16,7 @@ h1 {
   font-weight: bold;
   font-size: 96px;
   line-height: 128px;
-  color: #000000;
+  color:#265283;
 }
 h2 {
   font-size: 36px;
@@ -30,12 +30,13 @@ h3 {
   margin-top: 23px;
 }
 .hero {
-  background: var(--background-color);
+   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
   text-align: center;
   padding:160px 20px;
 }
 .button-hero {
-  background-color: var(--brand-color);
+  background-color: #265283;
   color: #ffffff;
   margin-top: 49px;
   padding: 18px 30px;
