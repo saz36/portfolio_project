@@ -44,3 +44,9 @@ h3 {
   font-family: var(--default-font-family);
   line-height: 27px;
 }
+
+      .button-hero:hover{
+        color: var(--brand-color);
+        background: #ffffff;
+        border:1px solid  var(--brand-color);
+      }
