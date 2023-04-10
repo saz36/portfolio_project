@@ -1,5 +1,6 @@
 :root {
   --primary-color: #272142;
+  --second-color:#265283;
   --brand-color: #6c63ff;
   --default-font-family: "Poppins", sans-serif;
   --head-font-family: font-family: 'Playfair Display', serif;
@@ -16,7 +17,7 @@ h1 {
   font-weight: bold;
   font-size: 96px;
   line-height: 128px;
-  color:#265283;
+  color:var(--second-color)
 }
 h2 {
   font-size: 36px;
@@ -36,7 +37,7 @@ h3 {
   padding:160px 20px;
 }
 .button-hero {
-  background-color: #265283;
+  background-color:var(--second-color);
   color: #ffffff;
   margin-top: 49px;
   padding: 18px 30px;
@@ -44,6 +45,7 @@ h3 {
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 27px;
+  transition: all 200ms ease;
 }
 
       .button-hero:hover{
