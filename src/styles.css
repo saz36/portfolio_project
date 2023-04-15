@@ -19,14 +19,22 @@ h1 {
   line-height: 128px;
   color:var(--second-color)
 }
-h2 {
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 54px;
-}
+h2{     
+        font-family: var(--head-font-family);
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 60px;} 
 h1,h2{margin-bottom: 0px;}
 
-h3 {
+
+.hero p{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+font-family: var(--default-font-family);
+  color: var(--primary-color);
+}
+.hero h2 {
   font-size: 24px;
   margin-top: 23px;
 }
@@ -42,6 +50,7 @@ img
   text-align: center;
   padding:160px 20px;
 }
+
 .button-hero {
   background-color:var(--second-color);
   color: #ffffff;
@@ -53,10 +62,27 @@ img
   line-height: 27px;
   transition: all 200ms ease;
 }
+.button-branding{
+  color:var(--brand-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+  height: 60px;
+width: 200px;
+border: 1px solid #6C63FF;
+border-radius: 4px;
+padding: 18px 30px;
 
+}
+.button-branding:hover{
+   color:  #ffffff;
+        background:var(--brand-color);
+        border:1px solid  var(--brand-color);
+        
+}
       .button-hero:hover{
-        color: var(--brand-color);
-        background: #ffffff;
+           color: var(--brand-color);
+        background:  #ffffff;
         border:1px solid  var(--brand-color);
       }
       .ws-concussion {
@@ -65,14 +91,8 @@ img
         font-size: 18px;
         
       }
-      .sections{
-        margin-top:70px;
-      }
-      .headings{
-        font-family: var(--head-font-family);
-        font-weight: 700;
-        font-size: 64px;
-      }
+      
+      
       .ws-paragraphs{
         margin-top: 50px;
         color: var(--primary-color);
