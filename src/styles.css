@@ -20,12 +20,8 @@ h1 {
   line-height: 128px;
   color:var(--second-color)
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 50px;
-    text-align: center;
-    line-height: 1.5;
-  }}
+
+  
 h2{     
         font-family: var(--head-font-family);
         font-weight: 700;
@@ -33,11 +29,25 @@ h2{
         line-height: 60px;} 
 h1,h2{margin-bottom: 0px;}
 @media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+  }
   h2 {
     font-size: 40px;
     text-align: center;
     line-height: 1.5;
   }
+  .hero{
+    padding:80px 20px;
+  }
+  
+        .description-project{
+          padding:0px;
+        margin:0 auto;
+        text-align: center;}
+             
 }
 
 .hero p {
@@ -118,8 +128,4 @@ padding: 18px 30px;
        .sections{margin-top: 70px;}
        .description-project{padding:120px 60px;}
        
-       @media(max-width: 900px){
-        .description-project{padding:0px;
-        margin:0 auto;
-        text-align: center;}
-       }        
+       
