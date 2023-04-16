@@ -28,27 +28,7 @@ h2{
         font-size: 64px;
         line-height: 60px;} 
 h1,h2{margin-bottom: 0px;}
-@media (max-width: 900px) {
-  h1 {
-    font-size: 50px;
-    text-align: center;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 40px;
-    text-align: center;
-    line-height: 1.5;
-  }
-  .hero{
-    padding:80px 20px;
-  }
-  
-        .description-project{
-          padding:0px;
-        margin:0 auto;
-        text-align: center;}
-             
-}
+
 
 .hero p {
   font-size: 36px;
@@ -66,8 +46,7 @@ font-family: var(--default-font-family);
 
 
 .hero  {
-   background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   text-align: center;
   padding:160px 20px;
 }
@@ -125,7 +104,33 @@ padding: 18px 30px;
         font-weight: 400;
         line-height: 30px;
        }
-       .sections{margin-top: 70px;}
-       .description-project{padding:120px 60px;}
+       .concussion-pic{margin: 85px 37px 20px 50px;}
+       .concussion-project{margin-top: 34px;}
+       .weather-pic{margin-top: 70px;}
+       .weather-project{margin-top:97px;}
+       .dictionary-pic{margin-top: 48px;}
+       .dictionary-project{margin-top: 117px;}
+
        
        
+       @media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .hero{
+    padding:80px 20px;
+  }
+  
+        .dictionary-project,.weather-project,.concussion-project{
+          padding:0px;
+        margin-top: 10px;
+        text-align: center;}
+             
+}
