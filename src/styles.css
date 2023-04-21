@@ -7,6 +7,31 @@
   --head-font-family: font-family: 'Playfair Display', serif;
   
 }
+.logo-small{max-height:40px ;}
+nav{
+  padding:10px 0;
+}
+nav ul{
+  margin:0;
+  padding:0;
+}
+nav li{
+  display:inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 20px;
+}
+nav a{
+  text-decoration: none;
+  color:#000000;
+  font-weight:400;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  transition: all 200ms ease;}
+
+  
+  nav li.active a,nav a:hover{
+    color:var(--brand-color);}
 h1 {
   font-family: var(--head-font-family); 
 }
@@ -153,9 +178,9 @@ font-size: 16px;}
     padding:0px;
     margin-top: 10px;
     text-align: center;}
-  .about-content{
-    margin-top: 5px;}
-  .about-content h1{
+  .content-section{
+    margin: 5px 10px;}
+  .content-section h1{
     font-size: 41px;
     margin-top: 0px;}
   .container-section{
@@ -165,4 +190,6 @@ font-size: 16px;}
   .coding-image{
     margin:20px 0px;
     padding:0px 0px}
-  }
+  
+  nav a{font-size: 12px;
+  margin-right: 10px;}}
