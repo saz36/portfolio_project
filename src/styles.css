@@ -7,7 +7,7 @@
   --head-font-family: font-family: 'Playfair Display', serif;
   
 }
-.logo-small{max-height:40px ;}
+
 nav{
   padding:10px 0;
 }
@@ -30,48 +30,55 @@ nav a{
   transition: all 200ms ease;}
 
   
-  nav li.active a,nav a:hover{
+nav li.active a,nav a:hover{
     color:var(--brand-color);}
-h1 {
+
+    .logo-small{max-height:40px ;}
+
+h1,h4 {
   font-family: var(--head-font-family); 
 }
-h2,p {
+h2,p,footer {
   font-family: var(--default-font-family);
   color: var(--primary-color);
 }
-h3{font-family: var(--default-font-family);
-color:#000000;
-font-weight:700;
-font-size:24px;}
+h3{
+  font-family: var(--default-font-family);
+  color:#000000;
+  font-weight:700;
+  font-size:24px;}
 
 .hero h1{
   font-weight: 700;
   font-size: 96px;
   line-height: 128px;
-  color:var(--second-color)}
-
+  color:var(--second-color)
+}
 .container-section h1{
   margin-top: 48px 20px;
   font-size: 64px;
   color:black;
   font-weight: 700;
   line-height:1.2;}
+
 .hero h2{     
-        font-family: var(--head-font-family);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 60px;
-       margin-top: 23px;}
+  font-family: var(--head-font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 60px;
+  margin-top: 23px;}
 
 .container-section h2{
   margin-top: 20px;
   padding-top: 20px;
   font-size: 18px;
-  font-weight: 700;}
+  font-weight: 700;
+}
   
-  .container-section p{margin-top: 16px;
+.container-section p{
+  margin-top: 16px;
   font-weight:400;
-font-size: 16px;}
+  font-size: 16px;}
 
 
 .hero p {
@@ -101,8 +108,16 @@ font-size: 16px;}
   line-height: 27px;
   transition: all 200ms ease;
 }
-.button-branding{
-  color:var(--brand-color);
+.button-hero:hover,
+.contact-button:hover{
+  color: var(--brand-color);
+  background:  #ffffff;
+  border:1px solid  var(--brand-color);
+      }
+      .button-branding{ color:var(--brand-color);
+      background: #ffffff;}
+.button-branding,.contact-button{
+ 
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -111,20 +126,16 @@ font-size: 16px;}
   border: 1px solid #6C63FF;
   border-radius: 4px;
   padding: 18px 30px;
-}
+}  
+.contact-button{background:var(--brand-color);
+color:#ffffff;}
 
-  
 .button-branding:hover{
   color:  #ffffff;
   background:var(--brand-color);
-  border:1px solid  var(--brand-color);
-        
+  border:1px solid  var(--brand-color);       
 }
-.button-hero:hover{
-  color: var(--brand-color);
-  background:  #ffffff;
-  border:1px solid  var(--brand-color);
-      }
+
 .ws-concussion {
   font-family: var(--default-font-family);
   font-weight:400;
@@ -141,36 +152,78 @@ font-size: 16px;}
   font-weight: 400;
   line-height: 30px;
        }
-.container-section{margin-top: 80px;}
-.content-section{margin-top: 80px;
-          padding: 16px 48px 0px 16px;}
-.concussion-pic{margin: 85px 37px 20px 50px;}
-.concussion-project{margin-top: 34px;}
-.weather-pic{margin-top: 70px;}
-.weather-project{margin-top:97px;}
-.dictionary-pic{margin-top: 48px;}
-.dictionary-project{margin-top: 117px;}
+.container-section{
+  margin-top: 80px;
+}
+.content-section{
+  margin-top: 80px;
+  padding: 16px 48px 0px 16px;
+}
+.concussion-pic{
+  margin: 85px 37px 20px 50px;
+}
+.concussion-project{
+  margin-top: 34px;
+}
+.weather-pic{
+  margin-top: 70px;
+}
+.weather-project{
+  margin-top:97px;
+}
+.dictionary-pic{
+  margin-top: 48px;
+}
+.dictionary-project{
+  margin-top: 117px;
+}
 
 .coding-image{margin-top: 100px;}
-       
-       
-  @media (max-width: 900px) {
-    .hero h1 {
-      font-size: 50px;
-      text-align: center;
-      line-height: 1.5;
+footer{
+  margin:78px 0 68px 0;
+}
+footer .email-link{
+  text-decoration: none;
+  color:#000000;
+  font-size: 24px;
+  font-weight: 500;
+  
+}  
+footer .email-link:hover{
+    color: var(--brand-color);
+}
+footer .git-face-links a{
+  margin:41px 33px ;
+  font-size: 18px;
+  color: var(--brand-color);
+  border-radius: 50%;
+  padding:10px 15px;
+  background-color: var(--background-color);
+  transition: all 200ms ease;
+} 
+footer .git-face-links a:hover{
+  background:var(--brand-color);
+  color:#ffffff;
+}
+@media (max-width: 900px) {
+.hero h1 {
+  font-size: 50px;
+  text-align: center;
+  line-height: 1.5;
           }
-      .container-section h1{font-size: 40px;
-      margin:20px 20px;
-      padding:20px 20px;
-      text-align: center;}
-    .hero h2 {
-    font-size: 30px;
-    text-align: center;
-    line-height: 1.5;
+.container-section h1{font-size: 40px;
+  margin:20px 20px;
+  padding:20px 20px;
+  text-align: center;}
+
+.hero h2 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.5;
   }
-  .hero,
-  .container-section{
+  
+.hero,
+.container-section{
     padding:80px 20px;
   }
   
