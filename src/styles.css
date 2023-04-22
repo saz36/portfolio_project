@@ -35,7 +35,7 @@ nav li.active a,nav a:hover{
 
     .logo-small{max-height:40px ;}
 
-h1,h3 {
+h1,h4 {
   font-family: var(--head-font-family); 
 }
 h2,p,footer {
@@ -43,10 +43,12 @@ h2,p,footer {
   color: var(--primary-color);
 }
 h3{
+  font-family: var(--default-font-family);
   color:#000000;
   font-weight:700;
-  font-size:48px;}
-
+  font-size:24px;}
+h4{font-size: 48px;
+font-weight: 700;}
 
 
 .hero  {
@@ -228,9 +230,10 @@ footer .git-face-links a:hover{
   text-align: center;
   line-height: 1.5;
           }
-.container-section h1{font-size: 40px;
-  margin:20px 20px;
-  padding:20px 20px;
+.container-section h1{
+  font-size: 30px;
+  margin:10px 10px;
+  padding:10px 10px;
   text-align: center;}
 
 .hero h2 {
@@ -271,5 +274,5 @@ footer .git-face-links a:hover{
   margin:5px 5px;
  }
  footer .email-link{margin-top: 5px;}
- 
+ footer .git-face-links a{margin:0;}
 }
