@@ -224,7 +224,7 @@ footer .git-face-links a:hover{
 
   nav a{font-size: 12px;
   margin-right: 10px;}
-
+nav li.active a{margin-left: 0;}
   .hero h1 {
   font-size: 50px;
   text-align: center;
