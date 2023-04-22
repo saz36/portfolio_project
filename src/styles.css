@@ -47,7 +47,8 @@ h3{
   color:#000000;
   font-weight:700;
   font-size:24px;}
-
+h4{font-size: 48px;
+font-weight: 700;}
 .hero h1{
   font-weight: 700;
   font-size: 96px;
@@ -128,7 +129,8 @@ h3{
   padding: 18px 30px;
 }  
 .contact-button{background:var(--brand-color);
-color:#ffffff;}
+color:#ffffff;
+margin-top:20px;}
 
 .button-branding:hover{
   color:  #ffffff;
@@ -182,12 +184,20 @@ color:#ffffff;}
 footer{
   margin:78px 0 68px 0;
 }
+footer .contact-container{
+  background:var(--background-color);
+padding:35px 120px;
+border-radius: 20px;}
+footer .contact-container p{
+  margin-top: 10px;
+  opacity: 80%;
+}
 footer .email-link{
   text-decoration: none;
   color:#000000;
   font-size: 24px;
   font-weight: 500;
-  
+  margin-top:78px;
 }  
 footer .email-link:hover{
     color: var(--brand-color);
@@ -206,7 +216,11 @@ footer .git-face-links a:hover{
   color:#ffffff;
 }
 @media (max-width: 900px) {
-.hero h1 {
+
+  nav a{font-size: 12px;
+  margin-right: 10px;}
+
+  .hero h1 {
   font-size: 50px;
   text-align: center;
   line-height: 1.5;
@@ -243,6 +257,16 @@ footer .git-face-links a:hover{
   .coding-image{
     margin:20px 0px;
     padding:0px 0px}
+  .button-branding{margin-top: 20px;}
+ footer .contact-container{
+  text-align: center;
+  padding:15px;
   
-  nav a{font-size: 12px;
-  margin-right: 10px;}}
+ }
+ footer {
+  font-size: 16px;
+  margin:5px 5px;
+ }
+ footer .email-link{margin-top: 5px;}
+ 
+}
