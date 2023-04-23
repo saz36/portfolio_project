@@ -222,7 +222,7 @@ footer .git-face-links a:hover{
 }
 @media (max-width: 900px) {
 
-  nav a{font-size: 12px;
+  nav a{font-size: 14px;
   margin-right: 10px;}
 nav li.active a{margin-left: 0;}
   .hero h1 {
