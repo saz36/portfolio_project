@@ -4,10 +4,8 @@
   --brand-color: #6c63ff;
   --background-color: #f9f7fe;
   --default-font-family: "Poppins", sans-serif;
-  --head-font-family: font-family: 'Playfair Display', serif;
-  
+  --head-font-family: font-family: 'Playfair Display', serif;  
 }
-
 nav{
   padding:10px 0;
 }
@@ -162,10 +160,6 @@ line-height: 30px;}
   background:var(--brand-color);
   border:1px solid  var(--brand-color);       
 }
-
-     
-
-
 .concussion-pic{
   margin: 85px 37px 20px 50px;
 }
@@ -280,5 +274,5 @@ font-size: 32px;
   margin:5px 5px;
  }
  footer .email-link{margin: 15px 0;}
- footer .git-face-links a{margin:0;}
+ footer .git-face-links a{margin:5px;}
 }
