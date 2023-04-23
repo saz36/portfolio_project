@@ -6,6 +6,7 @@
   --default-font-family: "Poppins", sans-serif;
   --head-font-family: font-family: 'Playfair Display', serif;  
 }
+.container{margin:10px 10px;}
 nav{
   padding:10px 0;
 }
@@ -243,7 +244,7 @@ nav li.active a{margin-left: 0;}
     margin:0px 0px;
 padding:20px 10px 80px 10px;
     text-align: center;}
-  .ws-concussion{margin-top:30px;}
+  .ws-concussion{margin-top:35px;}
   .concussion-project h2,
  .weather-project h2,
  .dictionary-project h2{
