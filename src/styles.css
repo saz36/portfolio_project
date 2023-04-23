@@ -46,7 +46,8 @@ h3{
   font-family: var(--default-font-family);
   color:#000000;
   font-weight:700;
-  font-size:24px;}
+  font-size:24px;
+margin-top:48px;}
 h4{font-size: 48px;
 font-weight: 700;}
 
@@ -117,7 +118,7 @@ font-weight: 700;}
 line-height: 30px;}
 .ws-concussion {
   font-size: 18px;
-  margin-top: 35px;
+  margin-top: 48px;
       } 
 .button-hero {
   background-color:var(--second-color);
@@ -245,9 +246,17 @@ nav li.active a{margin-left: 0;}
 .container-section{
     padding:80px 20px;
   }
-  
+  h1.work{font-size:25px;
+  padding:0;}
+  .ws-concussion{margin:5px 5px;}
+  .concussion-project h2,
+ .weather-project h2,
+ .dictionary-project h2{
+font-size: 32px;
+  }
+  h3{margin:20px 0;}
   .dictionary-project,.weather-project,.concussion-project{
-    padding:0px;
+    padding:0 20px;
     margin-top: 10px;
     text-align: center;}
   .content-section{
