@@ -242,12 +242,13 @@ nav li.active a{margin-left: 0;}
   line-height: 1.5;
   }
   
-.hero,
-.container-section{
+.hero{
     padding:80px 20px;
   }
-  
-
+    .container-section{
+    margin:0px 0px;
+padding:20px 10px 80px 10px;
+    text-align: center;}
   .ws-concussion{margin-top:30px;}
   .concussion-project h2,
  .weather-project h2,
@@ -264,10 +265,7 @@ font-size: 32px;
   .content-section h1{
     font-size: 35px;
     margin-top: 0px;}
-  .container-section{
-    margin:0px 0px;
-    padding:0px;
-    text-align: center;}
+.content-section h2{margin-top:10px;}
   .coding-image{
     margin:20px 0px;
     padding:0px 0px}
